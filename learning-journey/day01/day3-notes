@@ -8,7 +8,7 @@
   - ADLS Gen2 Linked Service
 
 ## ✔ What I Created
-- LS_Blob_Healthcare (connects to old Blob storage)
+- Azure Blob Storage (connects to old Blob storage)
 - LS_ADLS_Healthcare (connects to new ADLS Gen2 storage)
 
 ## ✔ Issues Faced
