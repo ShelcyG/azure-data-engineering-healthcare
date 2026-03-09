@@ -1,0 +1,15 @@
+# Day 2 – ADF UI Deep Dive
+
+## ✔ What I Learned
+- Azure Data Factory has 3 main sections:
+  1. Author – used to create pipelines, datasets, linked services.
+  2. Monitor – used to check pipeline runs and failures.
+  3. Manage – used to configure linked services and integration runtime.
+- Learned basic pipeline components (Pipeline, Activities, Dataset, Linked Service, Trigger).
+## ✔ UI Map (Simple)
+Author → Build pipelines  
+Monitor → See logs  
+Manage → Set connections  
+
+## ✔ Why This Matters
+Knowing the ADF layout helps me build and troubleshoot pipelines easily.
