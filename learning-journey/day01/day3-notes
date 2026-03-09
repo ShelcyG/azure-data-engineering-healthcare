@@ -1,0 +1,20 @@
+# Day 3 – Linked Services
+
+## ✔ What I Learned
+- Linked Service is the "connection" ADF uses to access a data store.
+- Without a Linked Service, ADF cannot open or read data from Storage.
+- Learned difference between:
+  - Blob Storage Linked Service
+  - ADLS Gen2 Linked Service
+
+## ✔ What I Created
+- LS_Blob_Healthcare (connects to old Blob storage)
+- LS_ADLS_Healthcare (connects to new ADLS Gen2 storage)
+
+## ✔ Issues Faced
+- ADLS Gen2 linked service error:
+  - Caused by storage account not having Hierarchical Namespace.
+  - Fixed by creating a new ADLS Gen2 storage account.
+
+## ✔ Why This Matters
+Linked services are required before creating datasets or pipelines.
