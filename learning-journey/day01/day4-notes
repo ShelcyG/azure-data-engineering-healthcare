@@ -1,0 +1,26 @@
+## ✔ What I Learned
+- Dataset tells ADF exactly which file/folder to read.
+- Dataset uses a Linked Service to connect to the storage.
+- CSV dataset is for raw data.
+- Parquet dataset is for optimized data (Silver/Gold layer).
+
+## ✔ What I Created
+1. CSV Dataset:
+   - Name: DS_Healthcare_CSV
+   - File System: raw
+   - File Name: patients.csv
+   - Linked Service: LS_ADLS_Healthcare
+
+2. Parquet Dataset:
+   - Name: DS_Healthcare_Parquet
+   - File System: silver
+   - Directory: blank
+   - File Name: blank
+   - Linked Service: LS_ADLS_Healthcare
+
+## ✔ Why This Matters
+Datasets are required to read/write data in pipelines and dataflows.
+
+## ✔ Screenshots
+- CSV dataset screenshot
+- Parquet dataset screenshot
